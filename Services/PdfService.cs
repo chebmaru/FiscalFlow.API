@@ -1,6 +1,6 @@
 ﻿namespace FiscalFlow.API.Services
 {
-    public class PdfService
+    public class PdfService : IPdfService
     {
     }
 }

@@ -1,6 +1,8 @@
-﻿namespace FiscalFlow.API.Data
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace FiscalFlow.API.Data
 {
-    public class AppDbContext
+    public class AppDbContext : DbContext
     {
     }
 }

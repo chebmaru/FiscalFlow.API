@@ -1,6 +1,6 @@
 ﻿namespace FiscalFlow.API.Services
 {
-    public class XmlGeneratorService
+    public class XmlGeneratorService : IXmlGeneratorService
     {
     }
 }

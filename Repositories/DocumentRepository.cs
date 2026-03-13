@@ -1,6 +1,6 @@
 ﻿namespace FiscalFlow.API.Repositories
 {
-    public class DocumentRepository
+    public class DocumentRepository : IDocumentRepository
     {
     }
 }
