@@ -1,6 +1,9 @@
-﻿namespace FiscalFlow.API.Services
+﻿using FiscalFlow.API.Models;
+
+namespace FiscalFlow.API.Services
 {
-    public class IXmlGeneratorService
+    public interface IXmlGeneratorService
     {
+        string GenerateXml(FiscalDocument document);
     }
 }

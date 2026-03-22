@@ -1,6 +1,9 @@
-﻿namespace FiscalFlow.API.Services
+﻿using FiscalFlow.API.Models;
+
+namespace FiscalFlow.API.Services
 {
-    public class IPdfService
+    public interface IPdfService
     {
+        byte[] GeneratePdf(FiscalDocument document);
     }
 }
